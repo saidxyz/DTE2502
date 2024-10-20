@@ -178,6 +178,6 @@ if __name__ == '__main__':
     # creates commandline parser
     arg_parser = argparse.ArgumentParser('train ', parents=[get_args_parser()])
     args = arg_parser.parse_args()
-
+    print(args)
     # passes the commandline argument to the main function
     main(args)
